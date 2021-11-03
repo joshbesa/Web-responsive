@@ -1,0 +1,159 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+p{
+  color: black;
+
+}
+#title{
+  background-color: White;
+  /*padding: 3% 15% 5%;*/
+}
+.brand-title{
+  padding: 0 5%;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.links{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.20rem;
+  color: white;
+}
+.nav-1{
+  background-color: #D3D3CB;
+}
+.nav-list{
+  padding: 0 18px;
+}
+.navbar{
+  padding: 0 0 .5rem;
+}
+.row{
+  padding: 15% 15% 5%;
+}
+.title-quote{
+  font-family: 'Staatliches', san-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: black;
+}
+.container{
+  text-align: center;
+}
+.btn-download{
+  align-items: center;
+  margin: 5% 3% 5% 0%;
+}
+.fab-icon{
+  margin: 8px;
+}
+.title-img{
+  width: 100%;
+  height: 150%;
+  /*transform: rotate(25deg);*/
+  right: 30%;
+}
+/*feature*/
+#features{
+  background-color: #D3D3CB;
+  padding: 0 14%;
+  text-align: center;
+  position: relative;
+}
+.fa-icon{
+  color: #ef8172;
+  margin: 1rem;
+
+}
+.fa-icon:hover{
+  color: #ff4c68;
+}
+.feature-title{
+  font
+}
+.feature-col{
+  padding: 2%;
+}
+/*testimonial*/
+#testimonial{
+  background-color: #ef8172;
+  text-align: center;
+  color: white
+
+}
+.image-2{
+  width: 100%;
+  height: 70%;
+  margin: 20px;
+}
+.testimonial-text{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5rem;
+}
+.carousel-item{
+  padding: 7% 14%;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  padding: 10% 15% 5%;
+  text-align: center;
+}
+.minima-1{
+  font-weight: 400;
+  font-size: 3.5rem;
+}
+.mb-2{
+  border-radius: 50%
+}
+#cta{
+  padding: 7% 14%;
+  text-align: center;
+}
+.cta-title{
+  font-weight: 300;
+  font-size: 2.5rem;
+  color: black;
+  line-height: 1.5
+}
+#footer{
+  background: #444444;
+  padding: 0% 14%;
+  text-align: center;
+}
+.foot-icon{
+  padding: 0 2%;
+  color: black;
+}
+.p-2{
+  color: black;
+}
+.foot-icon:hover{
+  color: white;
+}
+@media (max-width: 1024px){
+  .title-img{
+    height: 150%;
+  }
+}
+@media (max-width: 990px) {
+  .title-quote{
+    font-size: 3rem;
+    text-align: center;
+  }
+}
